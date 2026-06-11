@@ -1,7 +1,5 @@
-import garmindb
-print(dir(garmindb))
-
-from garmindb import GarminDb, MonitoringDb, ActivitiesDb, GarminSummaryDb
+from garmindb.garmindb import GarminDb, MonitoringDb, ActivitiesDb
+from garmindb.summarydb import GarminSummaryDb, DailySummaryDb, WeeklySummaryDb
 from garmindb.garmindb import MonitoringHeartRate, DailySummary, Sleep, Weight
 import pandas as pd
 import matplotlib.pyplot as plt
